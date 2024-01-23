@@ -3,13 +3,15 @@ import React from "react";
 function Card({ icon, title, text }) {
   return (
     <div>
-      <div className="w-40 h-300 rounded-xl bg-violet-500">
-        <div className="rounded [40%/80%_30%_40%_60%] bg-indigo-500">
+      <div className="relative w-72 h-80 p-4 rounded-xl bg-indigo-300">
+        <div className="flex items-center justify-center rounded-full w-12 p-3 bg-indigo-500">
           {icon}
         </div>
-        <h3>{title}</h3>
+        <h3 className="pt-2 pb-2 font-semibold">{title}</h3>
         <p>{text}</p>
-        <button>En savoir plus</button>
+        <button className="absolute bottom-3 rounded-3xl p-2 bg-white mt-8">
+          En savoir +
+        </button>
       </div>
     </div>
   );

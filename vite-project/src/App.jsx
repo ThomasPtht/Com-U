@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Services from "./components/Services";
+import Team from "./components/Team";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,10 +12,9 @@ function App() {
       <Header />
       <Banner />
       <About />
-      <h2 className="p-6 text-lg font-semibold">
-        Nos services de marketing numérique{" "}
-      </h2>
       <Services />
+      <Team />
+      <Footer />
     </div>
   );
 }

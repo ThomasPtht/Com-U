@@ -3,17 +3,19 @@ import bannerPic from "../assets/woman-with-laptop.png";
 function Banner() {
   return (
     <>
-      <div className=" relative flex items-center justify-around bg-gradient-to-t from-indigo-100">
+      <div className="px-20 relative flex items-center justify-around bg-gradient-to-t from-indigo-100">
         <div className="">
           <h2 className="text-5xl text-gray-600 font-bold mb-10">
             Sublimez votre présence, <br />
             Élevez votre influence 💫
           </h2>
           <p className="text-lg text-slate-500 mb-8 mt-6">
-            Votre solution digitale afin d'améliorer votre image de marque et
-            votre visibilité en ligne. <br />
-            Création de votre identitité visuelle, site internet, réseaux
-            sociaux ...
+            Explorez notre solution digitale pour rehausser votre image de
+            marque et renforcer votre présence en ligne. <br />
+            De la création d'identité visuelle à la conception de sites web et à
+            la gestion des réseaux sociaux, <br />
+            notre équipe façonne une expérience numérique captivante pour
+            propulser votre entreprise vers de nouveaux sommets.
           </p>
           <button className="w-32 rounded-2xl p-2 bg-violet-600 text-white mr-4 font-semibold">
             Contact
