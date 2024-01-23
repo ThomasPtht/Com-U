@@ -2,8 +2,8 @@ import React from "react";
 
 function Card({ icon, title, text }) {
   return (
-    <div>
-      <div className="relative w-72 h-80 p-4 rounded-xl bg-indigo-300">
+    <div className="">
+      <div className="relative w-72 h-80 p-4 rounded-xl bg-indigo-200 shadow-lg">
         <div className="flex items-center justify-center rounded-full w-12 p-3 bg-indigo-500">
           {icon}
         </div>

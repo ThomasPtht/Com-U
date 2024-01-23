@@ -1,5 +1,6 @@
 import React from "react";
 import aboutPic from "../assets/colleagues-working-office.jpg";
+import CountUp from "react-countup";
 
 function About() {
   return (
@@ -106,7 +107,6 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="h-36 bg-indigo-100"></div>
     </>
   );
 }

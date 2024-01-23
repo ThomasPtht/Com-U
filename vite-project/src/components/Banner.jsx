@@ -28,7 +28,7 @@ function Banner() {
         {/* IMAGE */}
         <div className="mb-5">
           <img
-            className="mt-20 w-80 rounded-[70%/80%_30%_40%_60%] bg-indigo-300"
+            className="mt-20 w-80 rounded-[70%/80%_30%_40%_60%] bg-indigo-300 shadow-xl"
             src={bannerPic}
             alt="woman sitting floor with laptop"
           />
@@ -49,7 +49,7 @@ function Banner() {
           </div>
 
           {/* Megaphone */}
-          <div className="absolute -rotate-12 bottom-9 right-70 p-3 bg-teal-100 border-1 rounded-full border-teal-700">
+          <div className="absolute -rotate-12 bottom-9 right-70 p-3 bg-teal-100 border-1 rounded-full border-teal-700 shadow-lg">
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function Banner() {
           </div>
 
           {/* instagram */}
-          <div className="absolute -rotate-12 top-9 right-20 p-3 bg-teal-100 border-1 rounded-full border-teal-700">
+          <div className="absolute -rotate-12 top-9 right-20 p-3 bg-teal-100 border-1 rounded-full border-teal-700 shadow-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
