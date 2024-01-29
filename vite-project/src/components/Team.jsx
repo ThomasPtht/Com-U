@@ -6,23 +6,25 @@ import julien from "../assets/portrait-lefort-julien.jpg";
 import julie from "../assets/portrait-renaud-julie.jpg";
 import marion from "../assets/portrait-sougere-marion.jpg";
 import bertrand from "../assets/portrait-lenoble-bertrand.jpg";
+import wave from "../assets/wave-haikei.svg";
 
 function Team() {
   return (
-    <div>
-      <h2 className="text-center text-2xl pb-8 font-semibold">
+    <div className="relative">
+      <h2 className="text-center mt-4 text-3xl font-bold text-gray-700 sm:text-4xl xl:text-5xl pb-8 ">
         Rencontrez l'équipe !
       </h2>
-      <p className="text-center m-">
-        Chez <span className="text-indigo-600 font-semibold">Com&U</span>, nous
-        formons une équipe diversifiée et talentueuse, unie par la passion de
-        créer des expériences exceptionnelles. <br /> Chaque membre apporte son
-        expertise unique, de la direction stratégique à l'exécution créative,
-        pour offrir à nos clients des solutions innovantes et impactantes.{" "}
-        <br />
+      <p className="text-center">
+        Chez{" "}
+        <span className="text-lg text-indigo-600 font-semibold">Com&U</span>,
+        nous formons une équipe diversifiée et talentueuse, unie par la passion
+        de créer des expériences exceptionnelles. <br /> Chaque membre apporte
+        son expertise unique, de la direction stratégique à l'exécution
+        créative, pour offrir à nos clients des solutions innovantes et
+        impactantes. <br />
         Découvrez les visages derrière notre réussite.
       </p>
-      <div className="m-20 grid grid-cols-3 justify-items-center gap-y-8">
+      <div className="m-6 grid grid-cols-2 md:grid-cols-3 md:m-20 justify-items-center gap-y-8">
         <CardTeam picture={laurent} name="Laurent Gaucher" job="Directeur" />
 
         <CardTeam picture={julie} name="Julie Renaud" job="Chef de projet" />

@@ -1,24 +1,20 @@
-import { useState } from "react";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
-import About from "./components/About";
-import Services from "./components/Services";
-import Team from "./components/Team";
-import Footer from "./components/Footer";
-import CounterUp from "./components/CounterUp";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+]);
 
 function App() {
-  return (
-    <div className="">
-      <Header />
-      <Banner />
-      <About />
-      <CounterUp />
-      <Services />
-      <Team />
-      <Footer />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

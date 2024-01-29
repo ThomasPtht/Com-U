@@ -9,7 +9,7 @@ function CounterUp(props) {
       onEnter={() => setCounterState(true)}
       onExit={() => setCounterState(false)}
     >
-      <div className="flex justify-around items-center h-36 bg-indigo-100">
+      <div className="flex flex-col h-80 sm:flex-row justify-around items-center sm:h-36 bg-indigo-100">
         <div className="text-center">
           <p className="text-4xl text-teal-500 font-bold pb-2">
             {counterState && (

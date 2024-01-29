@@ -1,21 +1,24 @@
 import React from "react";
 import aboutPic from "../assets/colleagues-working-office.jpg";
-import CountUp from "react-countup";
 
 function About() {
   return (
-    <>
-      <div className="flex m-20">
-        <img className=" rounded-lg w-3/6" src={aboutPic} alt="" />
+    <div id="about">
+      <div className="flex flex-col my-16 sm:mx-2 xl:mx-20 lg:flex-row">
+        <img
+          className="rounded-lg mb-6 w-4/6 lg:w-3/6 mx-auto object-cover "
+          src={aboutPic}
+          alt=""
+        />
 
-        <div className="ml-10">
+        <div className="mx-4 sm:ml-10">
           <div className="w-40 mb-6 rounded-full p-2 bg-indigo-400 text-white text-center">
             A propos de nous{" "}
           </div>
-          <h2 className="mb-4 text-2xl font-semibold">
+          <h2 className="my-10 text-2xl font-semibold">
             Nous offrons notre savoir faire depuis +20 ans
           </h2>
-          <p className="mb-4">
+          <p className="mb-10 text-sm sm:text-base">
             Notre agence de communication capitalise sur plus de 20 ans
             d'expérience. Expertise et créativité sont au cœur de notre
             approche. Nous nous adaptons constamment aux évolutions du marché,
@@ -28,10 +31,10 @@ function About() {
             avec expertise et engagement.
           </p>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="text-sm sm:text-base grid grid-cols-2 gap-4">
             <div className="flex">
               <svg
-                className="w-6"
+                className="w-5 sm:w-6"
                 clip-rule="evenodd"
                 fill-rule="evenodd"
                 stroke-linejoin="round"
@@ -50,7 +53,7 @@ function About() {
 
             <div className="flex">
               <svg
-                className="w-6"
+                className="w-5 sm:w-6"
                 clip-rule="evenodd"
                 fill-rule="evenodd"
                 stroke-linejoin="round"
@@ -69,7 +72,7 @@ function About() {
 
             <div className="flex">
               <svg
-                className="w-6"
+                className="w-5 sm:w-6"
                 clip-rule="evenodd"
                 fill-rule="evenodd"
                 stroke-linejoin="round"
@@ -88,7 +91,7 @@ function About() {
 
             <div className="flex">
               <svg
-                className="w-6"
+                className="w-5 sm:w-6"
                 clip-rule="evenodd"
                 fill-rule="evenodd"
                 stroke-linejoin="round"
@@ -107,7 +110,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

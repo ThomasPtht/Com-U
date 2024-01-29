@@ -3,11 +3,11 @@ import Card from "./Card";
 
 function Services() {
   return (
-    <div>
-      <h2 className="p-6 mt-10 text-2xl font-semibold text-center">
+    <div id="services" className="relative">
+      <h2 className="p-6 mt-10 text-3xl font-bold text-gray-700 sm:text-4xl xl:text-5xl text-center">
         Nos services de marketing numérique{" "}
       </h2>
-      <div className="flex flex-wrap justify-center gap-10 m-20">
+      <div className="flex flex-wrap justify-center gap-12 m-20">
         <Card
           icon={
             <svg

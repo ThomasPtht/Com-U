@@ -4,7 +4,7 @@ function CardTeam({ picture, name, job }) {
   return (
     <div className="text-center">
       <img
-        className="rounded-full w-40 h-40 object-cover "
+        className="w-28 h-28 rounded-full md:w-40 md:h-40 object-cover "
         src={picture}
         alt=""
       />
