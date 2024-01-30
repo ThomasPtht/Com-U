@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <div className="">
+    <div className="bg-indigo-100 ">
       <div className="flex flex-col text-sm mx-8 sm:mx-0 sm:text-sm lg:text-lg sm:flex-row justify-around py-6">
         <div>
           <h2 className="mt-6 font-title text-3xl text-indigo-400">

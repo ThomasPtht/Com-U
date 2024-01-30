@@ -9,7 +9,7 @@ function Card({ icon, title, text }) {
         </div>
         <h3 className="pt-2 pb-2 font-semibold">{title}</h3>
         <p>{text}</p>
-        <button className="w-28 absolute bottom-3 rounded-3xl p-2 bg-white mt-8">
+        <button className="w-28 absolute bottom-3 rounded-3xl p-2 bg-white text-indigo-600 font-semibold hover:bg-indigo-500 hover:text-white mt-8">
           En savoir +
         </button>
       </div>

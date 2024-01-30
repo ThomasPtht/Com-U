@@ -36,7 +36,7 @@ function Banner() {
 
         {/* IMAGE */}
         <div className="mb-5">
-          <div className="relative">
+          <div className="relative sm:mr-4 lg:mr-8">
             <img
               className="hidden relative sm:block mt-20 mr-14 w-80 h-100 rounded-[70%/80%_30%_40%_60%] bg-indigo-300 shadow-xl"
               src={bannerPic}
@@ -45,9 +45,9 @@ function Banner() {
 
             {/* ICONES */}
             {/* Ligth */}
-            <div className="hidden sm:block absolute -rotate-12 top-1/4 right-50 p-4 bg-red-100 border-1 rounded-full border-red-700">
+            <div className="hidden sm:block absolute -rotate-12 top-8 md:top-14 lg:top-20 p-4 bg-red-100 border-1 rounded-full border-red-700">
               <svg
-                className="w-7 h-7"
+                className="sm:w-5 sm:h-5 md:w-7 md:h-7"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -73,11 +73,11 @@ function Banner() {
             </div>
 
             {/* facebook */}
-            <div className="hidden sm:block absolute bottom-6 right-0 rotate-12  p-3 border-1 rounded-full border-blue-700">
+            <div className="hidden sm:block absolute sm:bottom-[-16px] sm:right-[-20px] lg:bottom-[-8px] lg:right-[-14px] 2xl:right-0 rotate-12  p-3 border-1 rounded-full border-blue-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
+                width="29"
+                height="29"
                 viewBox="0 0 24 24"
                 fill="skyblue"
               >
@@ -89,8 +89,8 @@ function Banner() {
             <div className="hidden sm:block absolute -rotate-12 top-[-48px] right-12 p-3 bg-teal-100 border-1 rounded-full border-teal-700 shadow-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="22"
+                height="22"
                 viewBox="0 0 24 24"
                 fill="green"
               >

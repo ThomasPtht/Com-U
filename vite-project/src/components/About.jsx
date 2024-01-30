@@ -6,13 +6,13 @@ function About() {
     <div id="about">
       <div className="flex flex-col my-16 sm:mx-2 xl:mx-20 lg:flex-row">
         <img
-          className="rounded-lg mb-6 w-4/6 lg:w-3/6 mx-auto object-cover "
+          className="rounded-lg mb-8 w-4/6 lg:w-3/6 mx-auto object-cover "
           src={aboutPic}
           alt=""
         />
 
         <div className="mx-4 sm:ml-10">
-          <div className="w-40 mb-6 rounded-full p-2 bg-indigo-400 text-white text-center">
+          <div className="w-32 text-sm sm:text-base sm:w-40 mb-6 rounded-full p-2 bg-indigo-400 text-white text-center">
             A propos de nous{" "}
           </div>
           <h2 className="my-10 text-2xl font-semibold">
