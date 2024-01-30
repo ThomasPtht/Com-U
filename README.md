@@ -1,6 +1,10 @@
 # Com-U
 Création de site web pour une agence de communication 💻
 
+
+https://github.com/ThomasPtht/Com-U/assets/128037230/e5553b87-c179-411e-bae7-fd2cff867043
+
+
 J'ai développé un projet personnel pour une agence marketing inventée : Com&U. En utilisant React comme principale bibliothèque JavaScript et le builder Vite pour accélérer le processus de développement. L'approche modulaire de React m'a permis de créer une interface utilisateur dynamique et réactive en utilisant des composants réutilisables, tels que des cartes pour présenter les différents services et l'équipe de l'agence.
 
 En outre, j'ai implémenté un menu burger, visible sur des écrans plus petits (inférieurs à 640px), pour améliorer la navigation sur des appareils mobiles. Cette fonctionnalité ajoute une convivialité supplémentaire en offrant une expérience utilisateur optimale.
