@@ -1,3 +1,3 @@
-# Com-and-U
+# Com-U
 
-Création d'un site web pour une agence de communication
+Création de site web pour une agence de communication
