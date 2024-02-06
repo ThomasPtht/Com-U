@@ -1,9 +1,9 @@
 import React from "react";
-import aboutPic from "../assets/colleagues-working-office.jpg";
+import aboutPic from "../assets/colleagues-working-office.webp";
 
 function About() {
   return (
-    <div id="about">
+    <section>
       <div className="flex flex-col my-16 sm:mx-2 xl:mx-20 lg:flex-row">
         <img
           className="rounded-lg mb-8 w-4/6 lg:w-3/6 mx-auto object-cover "
@@ -110,7 +110,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

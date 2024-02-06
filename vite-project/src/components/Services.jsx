@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Services() {
   return (
-    <div id="services" className="relative">
+    <section id="services" className="relative">
       <h2 className="p-6 mt-10 text-3xl font-bold text-gray-700 sm:text-4xl xl:text-5xl text-center">
         Nos services de marketing numérique{" "}
       </h2>
@@ -90,7 +90,7 @@ function Services() {
           />
         </div>
       </Fade>
-    </div>
+    </section>
   );
 }
 

@@ -1,16 +1,16 @@
 import React from "react";
 import CardTeam from "../components/CardTeam";
-import nicolas from "../assets/portrait-baudard-nicolas.jpg";
-import laurent from "../assets/portrait-gaucher-laurent.jpg";
-import julien from "../assets/portrait-lefort-julien.jpg";
-import julie from "../assets/portrait-renaud-julie.jpg";
-import marion from "../assets/portrait-sougere-marion.jpg";
-import bertrand from "../assets/portrait-lenoble-bertrand.jpg";
+import nicolas from "../assets/portrait-baudard-nicolas.webp";
+import laurent from "../assets/portrait-gaucher-laurent.webp";
+import julien from "../assets/portrait-lefort-julien.webp";
+import julie from "../assets/portrait-renaud-julie.webp";
+import marion from "../assets/portrait-sougere-marion.webp";
+import bertrand from "../assets/portrait-lenoble-bertrand.webp";
 import wave from "../assets/wave-haikei.svg";
 
 function Team() {
   return (
-    <div className="relative">
+    <section className="relative">
       <h2 className="text-center mt-4 text-3xl font-bold text-gray-700 sm:text-4xl xl:text-5xl pb-8 ">
         Rencontrez l'équipe !
       </h2>
@@ -49,7 +49,7 @@ function Team() {
           job="Développeur web"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
