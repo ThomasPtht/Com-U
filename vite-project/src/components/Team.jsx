@@ -6,7 +6,6 @@ import julien from "../assets/portrait-lefort-julien.webp";
 import julie from "../assets/portrait-renaud-julie.webp";
 import marion from "../assets/portrait-sougere-marion.webp";
 import bertrand from "../assets/portrait-lenoble-bertrand.webp";
-import marketing from "../assets/business-marketing.webp";
 
 function Team() {
   return (
