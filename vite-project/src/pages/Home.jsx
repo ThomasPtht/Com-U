@@ -7,6 +7,7 @@ import CounterUp from "../components/CounterUp";
 import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import CallAction from "../components/CallAction";
 
 function Home(props) {
   return (
@@ -18,6 +19,7 @@ function Home(props) {
       <Services />
       <Team />
       <Testimonials />
+      <CallAction />
       <Footer />
     </div>
   );
