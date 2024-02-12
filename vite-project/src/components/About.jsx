@@ -4,7 +4,10 @@ import aboutPic from "../assets/colleagues-working-office.webp";
 function About() {
   return (
     <section>
-      <div className="flex flex-col my-16 sm:mx-2 xl:mx-20 lg:flex-row">
+      <div
+        id="about"
+        className="flex flex-col my-16 sm:mx-2 xl:mx-20 lg:flex-row"
+      >
         <img
           className="rounded-lg mb-8 w-4/6 lg:w-3/6 mx-auto object-cover "
           src={aboutPic}
