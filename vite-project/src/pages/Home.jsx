@@ -11,7 +11,7 @@ import CallAction from "../components/CallAction";
 
 function Home(props) {
   return (
-    <div>
+    <>
       <Header />
       <Banner />
       <About />
@@ -21,7 +21,7 @@ function Home(props) {
       <Testimonials />
       <CallAction />
       <Footer />
-    </div>
+    </>
   );
 }
 

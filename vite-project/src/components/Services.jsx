@@ -8,7 +8,7 @@ function Services() {
       <h2 className="p-6 mt-10 text-3xl font-bold text-gray-700 sm:text-4xl xl:text-5xl text-center">
         Nos services de marketing numérique{" "}
       </h2>
-      <Fade direction="right">
+      <Fade direction="right" fraction={0.4} triggerOnce>
         <div className="flex flex-wrap justify-center gap-12 m-20">
           <Card
             icon={

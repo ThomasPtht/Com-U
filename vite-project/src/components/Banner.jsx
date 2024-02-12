@@ -7,19 +7,20 @@ function Banner() {
   return (
     <section className=" flex flex-col sm:flex-row items-center justify-around bg-gradient-to-t from-indigo-100">
       <div className="p-4 sm:p-8">
-        <h2 className="text-2xl sm:text-3xl text-gray-600 font-bold sm:mb-10 md:text-4xl lg:text-5xl ">
-          Sublimez votre présence, <br />
-          Élevez votre influence 💫
-        </h2>
-        <p className="text-sm sm:text-base lg:text-lg text-slate-500 my-8">
-          Explorez notre solution digitale pour rehausser votre image de marque
-          et renforcer votre présence en ligne. <br />
-          De la création d'identité visuelle à la conception de sites web et à
-          la gestion des réseaux sociaux, <br />
-          notre équipe façonne une expérience numérique captivante pour
-          propulser votre entreprise vers de nouveaux sommets.
-        </p>
         <Fade direction="up">
+          <h2 className="text-xl pt-6 sm:pt-0 sm:text-3xl text-gray-600 font-bold sm:mb-10 md:text-4xl ">
+            Sublimez votre présence, <br />
+            Élevez votre influence 💫
+          </h2>
+          <p className="text-sm sm:text-base lg:text-md text-slate-500 my-8">
+            Explorez notre solution digitale pour rehausser votre image de
+            marque et renforcer votre présence en ligne. <br />
+            De la création d'identité visuelle à la conception de sites web et à
+            la gestion des réseaux sociaux, <br />
+            notre équipe façonne une expérience numérique captivante pour
+            propulser votre entreprise vers de nouveaux sommets.
+          </p>
+
           <div>
             <Link to="/contact">
               <button className="text-xs w-28 md:text-base md:w-32 rounded-2xl p-2 bg-violet-600 text-white mr-4 font-semibold hover:opacity-80">

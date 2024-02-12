@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <footer>
       <div className="bg-indigo-100 ">
-        <div className="flex flex-col text-sm mx-8 sm:mx-0 sm:text-sm lg:text-lg sm:flex-row justify-around py-6">
+        <div className="flex flex-col text-sm mx-8 sm:mx-0 md:text-base sm:flex-row justify-around py-6">
           <div>
             <h2 className="mt-6 font-title text-3xl text-indigo-400">
               <span className="rounded-lg bg-indigo-400 p-1.5 text-white tracking-widest">
@@ -118,7 +118,7 @@ function Footer(props) {
           </div>
         </div>
 
-        <div className="flex justify-center text-indigo-500 pb-4">
+        <div className="text-sm sm:text-base flex justify-center text-indigo-500 pb-4">
           <p>© Com&U, Tous droits réservés</p>
         </div>
       </div>
