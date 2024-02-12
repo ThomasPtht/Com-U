@@ -89,7 +89,6 @@ function Form(props) {
               </div>
             </div>
           </div>
-
           <div class="mt-6 overflow-hidden bg-white rounded-xl">
             <div class="px-6 py-12 sm:p-12">
               <h3 class="text-3xl font-semibold text-center text-gray-900">

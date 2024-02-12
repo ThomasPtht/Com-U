@@ -51,14 +51,14 @@ function Header() {
             Accueil
           </Link>
           <a
-            href="#about"
+            href="/#about"
             className="hover:bg-white hover:text-indigo-300"
             onClick={toggleNavbar}
           >
             A propos
           </a>
           <a
-            href="#services"
+            href="/#services"
             className="hover:bg-white hover:text-indigo-300"
             onClick={toggleNavbar}
           >
@@ -123,10 +123,10 @@ function Header() {
             <li className="pl-8 hover:opacity-50">
               <Link to="/">Accueil</Link>
             </li>
-            <a href="#about">
+            <a href="/#about">
               <li className="pl-8 hover:opacity-50">A propos</li>
             </a>
-            <a href="#services">
+            <a href="/#services">
               <li className="pl-8 hover:opacity-50">Services</li>
             </a>
           </ul>
